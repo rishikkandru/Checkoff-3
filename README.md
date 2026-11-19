@@ -8,5 +8,6 @@ Some of my most interesting discoveries were that, for 100,000, as an upper boun
 Instructions to run each program:
   find_primes.c:
       To run find_primes.c, first cd into the directory where it is located. You can use "cd /the absolute path to the directory containing the file" to do this. Then, run "gcc find_primes.c -o find_primes". After this, you can run the program with "./find_primes 100" (you can replace 100 with any number). If you want the time, run "time ./find_primes (chosen number)".
+  
   find_primes.py:
       To run find_primes.py, first cd into the directory where it is located. You can use "cd /the absolute path to the directory containing the file" to do this. Then, run the program with "python3 find_primes.py 100" (you can replace 100 with any number). If you want the time, run "time python3 find_primes.py (chosen number)".
