@@ -6,6 +6,7 @@ My approach to this project was to first learn the tool I needed, which was simp
 Some of my most interesting discoveries were that, for 100,000, as an upper bound, C was almost 51x faster, and I was able to analyze from this graph that C had a closely linear time complexity growth as the upper bound increased, while Python had a polynomial time complexity growth as the upper bound increased. Overall, it was a really interesting project that showed me just how different two programming languages can be even with the same logic.
 
 Instructions to run each program:
+  
   find_primes.c:
       To run find_primes.c, first cd into the directory where it is located. You can use "cd /the absolute path to the directory containing the file" to do this. Then, run "gcc find_primes.c -o find_primes". After this, you can run the program with "./find_primes 100" (you can replace 100 with any number). If you want the time, run "time ./find_primes (chosen number)".
   
